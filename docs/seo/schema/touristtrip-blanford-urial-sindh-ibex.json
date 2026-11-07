@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "@id": "https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/#trip",
+  "name": "Blanford Urial and Sindh Ibex Combination Hunt",
+  "description": "9-day guided combination hunt for Blanford urial (3 days) and Sindh ibex (2 days) in Dureji, Sindh-Balochistan, Karachi to Karachi, full board. Legal hunting period 1 November to 30 April; recommended December and January. 500 to 3,000 ft, flat terrain. Pricing for 2027-28 on request.",
+  "url": "https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/",
+  "image": "https://huntventuresafaris.com/assets/og/blanford-urial-sindh-ibex.jpg",
+  "touristType": "Trophy hunters",
+  "provider": {
+    "@id": "https://huntventuresafaris.com/#organization"
+  },
+  "tripOrigin": {
+    "@type": "City",
+    "name": "Karachi",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PK"
+    }
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/",
+    "url": "https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/",
+    "inLanguage": "en",
+    "contentLocation": [
+      {
+        "@type": "Place",
+        "name": "Dureji",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Sindh-Balochistan, Pakistan"
+        }
+      }
+    ]
+  },
+  "itinerary": {
+    "@type": "ItemList",
+    "numberOfItems": 6,
+    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Day 1",
+        "description": "Arrive in Karachi; transfer to the hotel"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Day 2",
+        "description": "Depart for the hunting area"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Days 3-5",
+        "description": "Three full days for Blanford urial hunting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Days 6-7",
+        "description": "Two full days for Sindh ibex hunting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Day 8",
+        "description": "Return journey to Karachi"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Day 9",
+        "description": "Departure flight home"
+      }
+    ]
+  }
+}

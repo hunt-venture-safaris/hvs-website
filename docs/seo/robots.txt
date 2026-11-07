@@ -1,0 +1,11 @@
+# robots.txt — huntventuresafaris.com (Phase 1)
+# Deploy to site root only at launch. Preview deployments (*.vercel.app) must send
+# "X-Robots-Tag: noindex" instead (see seo-architecture.md, section 7).
+
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+Disallow: /es/gracias/
+Disallow: /drafts/
+
+Sitemap: https://huntventuresafaris.com/sitemap.xml

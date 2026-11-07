@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "@id": "https://huntventuresafaris.com/hunts/punjab-urial/#trip",
+  "name": "Punjab Urial Hunt",
+  "description": "Guided Punjab urial hunt of up to 5 hunting days in the Kala Bagh, Jhelum and Padri areas. Recommended December to March. Itinerary and pricing on request.",
+  "url": "https://huntventuresafaris.com/hunts/punjab-urial/",
+  "image": "https://huntventuresafaris.com/assets/og/punjab-urial.jpg",
+  "touristType": "Trophy hunters",
+  "provider": {
+    "@id": "https://huntventuresafaris.com/#organization"
+  },
+  "tripOrigin": {
+    "@type": "City",
+    "name": "Islamabad",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PK"
+    }
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://huntventuresafaris.com/hunts/punjab-urial/",
+    "url": "https://huntventuresafaris.com/hunts/punjab-urial/",
+    "inLanguage": "en",
+    "contentLocation": [
+      {
+        "@type": "Place",
+        "name": "Kala Bagh",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Punjab, Pakistan"
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Jhelum",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Punjab, Pakistan"
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Padri",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Punjab, Pakistan"
+        }
+      }
+    ]
+  }
+}

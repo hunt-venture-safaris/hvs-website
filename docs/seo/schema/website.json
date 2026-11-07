@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://huntventuresafaris.com/#website",
+  "url": "https://huntventuresafaris.com/",
+  "name": "Hunt Venture Safaris",
+  "inLanguage": [
+    "en",
+    "es"
+  ],
+  "publisher": {
+    "@id": "https://huntventuresafaris.com/#organization"
+  }
+}

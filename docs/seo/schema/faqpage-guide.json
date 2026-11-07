@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When is the Astore markhor hunting season?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The legal hunting period is 15 October to 30 April. We recommend mid November to mid February."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are trophy hunting permits allocated in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permits are allocated to Pakistani outfitters through an open government auction. Our rates are based on the season's permit fees; minor increases are absorbed by Hunt Venture Safaris, and a substantial rise is communicated and invoiced separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is firearm import paperwork included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Firearm import and export documentation is included in every hunting package."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if the Islamabad to Gilgit flight is cancelled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Return flights between Islamabad and Gilgit are included, and 4x4 road transport is provided if flights are cancelled."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is trophy export included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trophy skinning, salting and packing are included. Trophy export from Pakistan, shipment and customs clearance are not included and are quoted separately."
+      }
+    }
+  ]
+}

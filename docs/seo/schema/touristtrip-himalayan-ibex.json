@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "@id": "https://huntventuresafaris.com/hunts/himalayan-ibex/#trip",
+  "name": "Himalayan Ibex Hunt in Upper Hunza",
+  "description": "10 to 12-day guided Himalayan ibex hunt, Islamabad to Islamabad, full board. Legal hunting period 1 November to 26 April; recommended mid November to mid February. District Hunza (Upper Hunza), 2,500 to 4,700 m. Pricing for 2027-28 on request.",
+  "url": "https://huntventuresafaris.com/hunts/himalayan-ibex/",
+  "image": "https://huntventuresafaris.com/assets/og/himalayan-ibex.jpg",
+  "touristType": "Trophy hunters",
+  "provider": {
+    "@id": "https://huntventuresafaris.com/#organization"
+  },
+  "tripOrigin": {
+    "@type": "City",
+    "name": "Islamabad",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PK"
+    }
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://huntventuresafaris.com/hunts/himalayan-ibex/",
+    "url": "https://huntventuresafaris.com/hunts/himalayan-ibex/",
+    "inLanguage": "en",
+    "about": [
+      {
+        "@type": "Taxon",
+        "name": "Capra ibex sibirica"
+      }
+    ],
+    "contentLocation": [
+      {
+        "@type": "Place",
+        "name": "Upper Hunza, District Hunza",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Gilgit-Baltistan",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      }
+    ]
+  },
+  "itinerary": {
+    "@type": "ItemList",
+    "numberOfItems": 6,
+    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Day 1",
+        "description": "Arrive in Islamabad"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Day 2",
+        "description": "Fly to Gilgit; complete trophy permit formalities"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Day 3",
+        "description": "Travel to the community-controlled hunting area"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Days 4-8",
+        "description": "Five days of hunting; evening of Day 8 return to Gilgit"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Day 9",
+        "description": "Fly back to Islamabad"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Day 10",
+        "description": "Departure from Islamabad"
+      }
+    ]
+  }
+}

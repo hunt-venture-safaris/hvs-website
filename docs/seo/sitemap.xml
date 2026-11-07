@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Phase 1 sitemap for huntventuresafaris.com. Add <lastmod> per URL at deploy time from the file's real last-modified date (git log); do not use the build date. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://huntventuresafaris.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunts/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/cazas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunts/astore-markhor/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/astore-markhor/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/markhor-de-astore/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/astore-markhor/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/cazas/markhor-de-astore/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/astore-markhor/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/markhor-de-astore/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/astore-markhor/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunts/himalayan-ibex/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/himalayan-ibex/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/ibice-del-himalaya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/himalayan-ibex/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/cazas/ibice-del-himalaya/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/himalayan-ibex/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/ibice-del-himalaya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/himalayan-ibex/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunts/blue-sheep/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/blue-sheep/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/carnero-azul/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/blue-sheep/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/cazas/carnero-azul/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/blue-sheep/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/carnero-azul/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/blue-sheep/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/urial-de-blanford-e-ibice-de-sind/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/cazas/urial-de-blanford-e-ibice-de-sind/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/urial-de-blanford-e-ibice-de-sind/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/blanford-urial-sindh-ibex/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunts/punjab-urial/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/punjab-urial/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/urial-del-punjab/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/punjab-urial/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/cazas/urial-del-punjab/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/hunts/punjab-urial/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/cazas/urial-del-punjab/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/hunts/punjab-urial/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/plan-your-hunt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/plan-your-hunt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/planificar-caceria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/plan-your-hunt/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/planificar-caceria/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/plan-your-hunt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/planificar-caceria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/plan-your-hunt/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/es/contacto/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://huntventuresafaris.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://huntventuresafaris.com/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://huntventuresafaris.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunting-in-pakistan/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunting-in-pakistan/permits-and-cites/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunting-in-pakistan/trophy-export/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunting-in-pakistan/firearms/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunting-in-pakistan/travel-and-logistics/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/hunting-in-pakistan/hunting-seasons/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/tours-and-expeditions/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/agents/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/about/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/conservation/</loc>
+  </url>
+  <url>
+    <loc>https://huntventuresafaris.com/privacy/</loc>
+  </url>
+</urlset>

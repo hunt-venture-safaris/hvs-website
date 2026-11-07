@@ -1,0 +1,150 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "@id": "https://huntventuresafaris.com/hunts/astore-markhor/#trip",
+  "name": "Astore Markhor Hunt in Gilgit-Baltistan",
+  "description": "20-day guided Astore markhor hunt (15 hunting days), Islamabad to Islamabad, full board. Legal hunting period 15 October to 30 April; recommended mid November to mid February. Areas: Nagar, Skardu, Astore, Gilgit, Bunji and Kargah, 2,500 to 4,700 m. Pricing for 2027-28 on request.",
+  "url": "https://huntventuresafaris.com/hunts/astore-markhor/",
+  "image": "https://huntventuresafaris.com/assets/og/astore-markhor.jpg",
+  "touristType": "Trophy hunters",
+  "provider": {
+    "@id": "https://huntventuresafaris.com/#organization"
+  },
+  "tripOrigin": {
+    "@type": "City",
+    "name": "Islamabad",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PK"
+    }
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://huntventuresafaris.com/hunts/astore-markhor/",
+    "url": "https://huntventuresafaris.com/hunts/astore-markhor/",
+    "inLanguage": "en",
+    "about": [
+      {
+        "@type": "Taxon",
+        "name": "Capra falconeri falconeri"
+      }
+    ],
+    "contentLocation": [
+      {
+        "@type": "Place",
+        "name": "Nagar",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Gilgit-Baltistan",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Skardu",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Gilgit-Baltistan",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Astore",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Gilgit-Baltistan",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Gilgit",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Gilgit-Baltistan",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Bunji",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Gilgit-Baltistan",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Kargah",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Gilgit-Baltistan",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      }
+    ]
+  },
+  "itinerary": {
+    "@type": "ItemList",
+    "numberOfItems": 6,
+    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Day 1",
+        "description": "Arrive in Islamabad"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Day 2",
+        "description": "Fly to Gilgit; complete trophy permit formalities"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Day 3",
+        "description": "Travel to the community-controlled hunting area"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Days 4-18",
+        "description": "Fifteen full days for the hunting expedition"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Day 19",
+        "description": "Return to Gilgit"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Day 20",
+        "description": "Fly to Islamabad and depart"
+      }
+    ]
+  }
+}

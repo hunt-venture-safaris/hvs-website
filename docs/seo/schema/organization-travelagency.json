@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "@id": "https://huntventuresafaris.com/#organization",
+  "name": "Hunt Venture Safaris",
+  "legalName": "Hunt Venture Safaris (Pvt) Limited",
+  "alternateName": "HVS",
+  "url": "https://huntventuresafaris.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://huntventuresafaris.com/assets/brand/hvs-logo.png",
+    "width": 985,
+    "height": 324
+  },
+  "image": "https://huntventuresafaris.com/assets/og/og-default.jpg",
+  "description": "Government-licensed (No. 2087) trophy hunting outfitter in Gilgit, Pakistan, since 1989. Guided hunts for Astore markhor, Himalayan ibex, blue sheep, Blanford urial, Sindh ibex and Punjab urial, plus tours, treks, jeep safaris and mountaineering expeditions in the Karakoram, Himalaya and Hindu Kush.",
+  "foundingDate": "1989",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hotel Riveria, River View Road, Chinar Bagh",
+    "addressLocality": "Gilgit",
+    "addressRegion": "Gilgit-Baltistan",
+    "postalCode": "15100",
+    "addressCountry": "PK"
+  },
+  "telephone": "+92 311 166 7829",
+  "email": "huntventuresafaris@gmail.com",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "reservations",
+      "telephone": "+92 311 166 7829",
+      "email": "huntventuresafaris@gmail.com",
+      "availableLanguage": [
+        "English"
+      ]
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+92 300 989 3205",
+      "availableLanguage": [
+        "English"
+      ]
+    }
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Pakistan government outfitter licence",
+    "value": "2087"
+  },
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "licence",
+    "name": "Government licence No. 2087"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Gilgit-Baltistan"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Sindh"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Balochistan"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Punjab"
+    }
+  ],
+  "knowsAbout": [
+    "Trophy hunting in Pakistan",
+    "Astore markhor",
+    "Himalayan ibex",
+    "Blue sheep",
+    "Blanford urial",
+    "Sindh ibex",
+    "Punjab urial",
+    "Trekking",
+    "Jeep safaris",
+    "Mountaineering expeditions"
+  ],
+  "sameAs": [
+    "https://www.bookyourhunt.com/en/outfitters/hunt-venture-safaris"
+  ]
+}

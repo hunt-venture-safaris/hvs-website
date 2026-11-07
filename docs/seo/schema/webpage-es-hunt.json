@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://huntventuresafaris.com/es/cazas/markhor-de-astore/",
+  "url": "https://huntventuresafaris.com/es/cazas/markhor-de-astore/",
+  "name": "Caza de markhor de Astore en Pakistán",
+  "inLanguage": "es",
+  "isPartOf": {
+    "@id": "https://huntventuresafaris.com/#website"
+  },
+  "about": {
+    "@id": "https://huntventuresafaris.com/hunts/astore-markhor/#trip"
+  },
+  "publisher": {
+    "@id": "https://huntventuresafaris.com/#organization"
+  }
+}
