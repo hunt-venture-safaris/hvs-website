@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+Disallow: /es/gracias/
+
+Sitemap: https://huntventuresafaris.com/sitemap.xml
