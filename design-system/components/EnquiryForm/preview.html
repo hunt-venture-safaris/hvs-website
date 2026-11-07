@@ -1,0 +1,24 @@
+<!-- @dsCard group="Forms" height=1120 -->
+<!doctype html>
+<html lang="en-GB">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>EnquiryForm — preview</title></head>
+<body>
+<form class="hvs-pad" novalidate onsubmit="return false">
+<div class="hvs-form">
+  <div class="hvs-field"><label class="hvs-label" for="f-name">Full name <span class="hvs-req" aria-hidden="true">*</span></label><input class="hvs-input" id="f-name" autocomplete="name" value="Javier Morales" required></div>
+  <div class="hvs-field" data-state="error"><label class="hvs-label" for="f-email">Email <span class="hvs-req" aria-hidden="true">*</span></label><input class="hvs-input" id="f-email" type="email" autocomplete="email" value="javier.morales@" aria-invalid="true" aria-describedby="f-email-err" required><span class="hvs-error" id="f-email-err"><svg class="hvs-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>Error: enter a full email address, like name@example.com</span></div>
+  <div class="hvs-field"><label class="hvs-label" for="f-phone">WhatsApp or phone</label><input class="hvs-input" id="f-phone" type="tel" autocomplete="tel" placeholder="+34 600 000 000" aria-describedby="f-phone-help"><span class="hvs-help" id="f-phone-help">Include the country code. We reply on WhatsApp if you prefer.</span></div>
+  <div class="hvs-field"><label class="hvs-label" for="f-country">Country</label><input class="hvs-input" id="f-country" autocomplete="country-name" value="Spain"></div>
+  <fieldset class="hvs-field hvs-field-full hvs-chips"><legend class="hvs-label">Species of interest</legend><label class="hvs-chip"><input type="checkbox" name="species" value="Astore Markhor" checked><span>Astore Markhor</span></label><label class="hvs-chip"><input type="checkbox" name="species" value="Himalayan Ibex"><span>Himalayan Ibex</span></label><label class="hvs-chip"><input type="checkbox" name="species" value="Blue Sheep" checked><span>Blue Sheep</span></label><label class="hvs-chip"><input type="checkbox" name="species" value="Blanford Urial"><span>Blanford Urial</span></label><label class="hvs-chip"><input type="checkbox" name="species" value="Sindh Ibex"><span>Sindh Ibex</span></label><label class="hvs-chip"><input type="checkbox" name="species" value="Punjab Urial"><span>Punjab Urial</span></label></fieldset>
+  <div class="hvs-field"><label class="hvs-label" for="f-month">Preferred month</label><select class="hvs-select" id="f-month"><option>No preference</option><option>October</option><option>November</option><option selected>December</option><option>January</option><option>February</option><option>March</option><option>April</option></select></div>
+  <div class="hvs-field" style="display:grid; grid-template-columns: 1fr 1fr; gap: var(--space-4);">
+    <div class="hvs-field"><label class="hvs-label" for="f-hunters">Hunters</label><input class="hvs-input" id="f-hunters" type="number" min="1" inputmode="numeric" value="2"></div>
+    <div class="hvs-field"><label class="hvs-label" for="f-comp">Companions</label><input class="hvs-input" id="f-comp" type="number" min="0" inputmode="numeric" value="1"></div>
+  </div>
+  <div class="hvs-field hvs-field-full"><label class="hvs-label" for="f-msg">Message</label><textarea class="hvs-textarea" id="f-msg" placeholder="Trophy goals, dates you can travel, firearm questions…"></textarea></div>
+  <div class="hvs-field-full hvs-row" style="justify-content: space-between;"><span class="hvs-help">We reply within two working days. Fields marked * are required.</span><button class="hvs-btn hvs-btn-primary hvs-btn-lg" type="submit">Send enquiry</button></div>
+  <div class="hvs-field-full hvs-success" role="status"><svg class="hvs-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg><div><strong>Enquiry sent</strong><p>Thank you. We have your enquiry for Astore Markhor and Blue Sheep, December, 2 hunters and 1 companion. We will reply to your email within two working days.</p></div></div>
+</div>
+</form>
+</body>
+</html>

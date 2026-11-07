@@ -1,0 +1,60 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Hunt Venture Safaris</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--field); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .graphite { fill:var(--graphite); }
+  .brass { fill:var(--brass-rule); }
+  .ink { fill:var(--ink); }
+  .crimson { fill:var(--crimson); }
+  .blk { rx:var(--radius-1); }
+  .rule { stroke:var(--brass-rule); stroke-width:var(--rule-width); }
+  .rule.cut { stroke:var(--field); }
+  .band { fill:var(--brass-bright); rx:var(--space-2); }
+  .plate { position:absolute; left:var(--space-5); top:var(--space-5); display:inline-flex; padding:var(--space-1) var(--space-3); background:var(--plate); border-radius:var(--radius-2); }
+  .plate img { display:block; height:44px; width:auto; }
+  .words { position:absolute; left:var(--space-5); bottom:var(--space-5); max-width:440px; }
+  .name { margin:0; font-family:var(--font-display); font-size:64px; line-height:.95; font-weight:400; letter-spacing:-.01em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="plate"><img src="/_blob/c9f0b8bddc034200224f6e417de47335" alt="Hunt Venture Safaris (Pvt) Limited"></div>
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      graphite 96×120 (logo monogram) · brass-rule 128×200 (the brochure accent, largest named hue) · ink 160×280 bled off the top (bone on dark, field on light: the logo plate) · crimson 96×24 once, atop graphite (the horn tips, rationed) · ≈30% of 960×288
+  arrangement a ridge: unequal blocks rising left to right to a summit bleeding off the top, bottoms on one line space-5 above the edge, space-4 gutters
+  pattern     editorial hairlines + the signature: four brass-rule contour rules at a space-7 pitch (the ElevationBand's 1,000 m ticks) crossing the ridge, cut to field where they cross brass; one brass-bright band pill on the summit block
+  scales      sides in space-2 multiples; gutters space-4; pitch space-7 (48); corners radius-1; band rx space-2 (half its 16px width: a pill, as radius-full draws on screen)
+-->
+<rect class="graphite blk" x="0" y="144" width="96" height="120" rx="2"/>
+<rect class="crimson blk" x="0" y="112" width="96" height="24" rx="2"/>
+<rect class="brass blk" x="112" y="64" width="128" height="200" rx="2"/>
+<rect class="ink blk" x="256" y="-16" width="160" height="280" rx="2"/>
+<line class="rule" x1="0" x2="480" y1="72" y2="72"/>
+<line class="rule" x1="0" x2="480" y1="120" y2="120"/>
+<line class="rule" x1="0" x2="480" y1="168" y2="168"/>
+<line class="rule" x1="0" x2="480" y1="216" y2="216"/>
+<line class="rule cut" x1="112" x2="240" y1="72" y2="72"/>
+<line class="rule cut" x1="112" x2="240" y1="120" y2="120"/>
+<line class="rule cut" x1="112" x2="240" y1="168" y2="168"/>
+<line class="rule cut" x1="112" x2="240" y1="216" y2="216"/>
+<rect class="band" x="328" y="48" width="16" height="176" rx="8"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Hunt Venture<br>Safaris</h1>
+<p class="tag">Licensed mountain hunting in Pakistan since 1989.</p>
+</div>
+</div>
+</body>
+</html>
