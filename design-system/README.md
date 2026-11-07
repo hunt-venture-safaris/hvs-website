@@ -61,7 +61,7 @@ Hunt Venture Safaris (HVS) is a government-licensed trophy hunting outfitter in 
 
 ### Logo
 
-- The master `assets/Logos/hvs-logo.png` is dark-on-light. On dark grounds it always sits on the bone plate (`hvs-plate`: `plate` fill, `radius-2`). In the light theme it may sit directly on `field`. The minimum height is 36px. Never recolour, invert or put it on glass.
+- The masters are vector: `assets/Logos/hvs-logo.svg` (positive, for light grounds) and `assets/Logos/hvs-logo-reversed.svg` (bone with crimson tips, for dark grounds). In the dark theme use the reversed logo directly on `field`, or the positive logo on the bone plate (`hvs-plate`: `plate` fill, `radius-2`). In the light theme use the positive logo directly on `field`. Use `hvs-mark.svg` / `hvs-mark-reversed.svg` for the favicon, avatars and the mobile bar. The minimum height is 36px for the full lockup. Never recolour, invert or put it on glass.
 
 ### Motion
 

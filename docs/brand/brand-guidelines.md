@@ -8,7 +8,10 @@ Files in this folder:
 
 | File | What it is |
 |---|---|
-| `hvs-logo.png` | Master logo, full horizontal lockup, transparent PNG, 985 × 324 px. The only master until a vector exists. |
+| `hvs-logo.svg` | **Master logo**, full horizontal lockup, vector (traced from the PNG master, exact brand colours: graphite #5A5A5D, black #000000, crimson #BD2030). Use this for everything. |
+| `hvs-logo-reversed.svg` | Reversed full lockup for dark grounds: graphite and black become bone #F4F1EA, crimson horn tips kept. |
+| `hvs-mark.svg` / `hvs-mark-reversed.svg` | Compact mark (HVS + markhor), positive and reversed, vector. |
+| `hvs-logo.png` | Original raster master, 985 × 324 px, kept for reference. |
 | `hvs-mark.png` | Compact mark ("HVS" + markhor), cropped from the master, transparent PNG, 337 × 319 px. Not redrawn. |
 
 ---
@@ -79,7 +82,7 @@ Unit of measure: **H** = the cap height of the "H" in the monogram (126 px on th
 | Stacked lockup | 120 px wide | 30 mm wide |
 | Compact mark | 32 px tall. At favicon 16 px, test legibility; if the markhor turns to mush, a simplified favicon must come from the vector redraw, not from editing the PNG. | 12 mm tall |
 
-Always supply @2x and @3x raster exports for screens. Until a vector exists, never scale the PNG master above its native size (985 px wide); large-format print must wait for the SVG.
+Use the SVG masters wherever possible; export @2x and @3x rasters from them only where a format needs a bitmap. The SVGs scale to any size, including large-format print.
 
 ### Backgrounds
 
@@ -90,9 +93,13 @@ The master is **dark-on-light only**: graphite and black on transparent. On the 
 3. **On dark grounds — after the redraw:** use a **reversed version**. A designer must produce:
    - **Reversed lockup:** monogram, markhor and wordmark in single-colour white (or bone), **crimson horn tips retained**. Internal black/graphite detail in the markhor that separates head, horns and legs must be redrawn as negative space so it still reads in one colour.
    - **Single-colour versions:** all-white, all-black and all-graphite, with no crimson, for embossing, engraving, fax, single-colour print and watermarks.
-   - All of these must be made from the vector redraw. **Do not invert or recolour the PNG** — the anti-aliasing and the two-tone markhor will break.
+   - Use `hvs-logo-reversed.svg` and `hvs-mark-reversed.svg`, made from the vector. **Do not invert or recolour the PNG** — the anti-aliasing and the two-tone markhor will break.
 
-### Recommendation: commission a vectorisation
+### Vector masters (done)
+
+The logo has been vectorised from the PNG master: same letterforms, markhor pose, proportions and exact colours. The SVGs are the masters from now on. For high-end print (embroidery, foil, signage) a printer may still want the file checked and cleaned by a professional illustrator, which is a small job now the vector exists.
+
+### Original recommendation (for reference)
 
 Commission a clean SVG/PDF vectorisation of the existing mark from a professional illustrator. This is a **redraw, not a redesign**: same letterforms, same markhor pose, same proportions, same colours. Deliverables: master SVG and EPS/PDF for lockups A, B and C; full-colour, reversed, and single-colour versions; a 16 px simplified favicon; the wordmark typeface identified (or redrawn as outlines) so it can be reproduced. Budget for one round of client approval against the PNG.
 
@@ -374,7 +381,7 @@ Other languages (Russian, Arabic, German) are TBC once the client confirms which
 
 ## 10. Open questions for the client
 
-1. **Vector logo:** does an original vector (AI/EPS/SVG/CDR) exist anywhere, e.g. with the first designer or printer? If not, approve commissioning a redraw.
+1. **Vector logo:** done: SVG masters traced from the PNG (see Logo). Optional: a printer's check for specialist print.
 2. **Wordmark typeface:** which font is the "HUNT VENTURE SAFARIS (PVT) LIMITED" set in? Do you hold a licence for Argent CF (brochure cover) for web use?
 3. **Bone plate colour:** is the cover plate a deliberate brand colour or a printer's default? Confirm we can standardise it.
 4. **Licence format:** confirm the official wording — "Govt. Licence No. 2087" or "ID 2087" — and whether a copy can be shown on the website.
@@ -383,10 +390,10 @@ Other languages (Russian, Arabic, German) are TBC once the client confirms which
 7. **Photography rights:** do we have permission from the clients shown in each photograph, and who took them? Who owns the copyright?
 8. **Photos 03, 18, 19:** confirm species, location and year.
 9. **Heritage photographs:** can you supply years, places and names for photos 00, 08, 13 (and others in your archive)?
-10. **WhatsApp:** which number is on WhatsApp Business, and who answers it? Which languages?
+10. **WhatsApp:** confirmed: +92 311 166 7829. Still open: who answers it, and in which languages?
 11. **Email domain:** can we set up an address on huntventuresafaris.com?
 12. **Scientific names:** confirm the names for Blanford Urial, Sindh Ibex and Punjab Urial, and whether to keep *Capra ibex sibirica* for Himalayan Ibex.
 13. **Punjab Urial:** will there be a full detail sheet (dates, altitude, start/end city)?
-14. **Office address:** please confirm the spelling "Hotel Riveria" (vs "Riviera").
+14. **Office address:** confirmed: "Hotel Riveria" is the correct spelling.
 15. **Spanish:** who will review Spanish translations? Is there a Spanish-speaking agent partner?
 16. **Measured trophies:** do you have verified horn measurements (SCI or CIC scores) we may publish?

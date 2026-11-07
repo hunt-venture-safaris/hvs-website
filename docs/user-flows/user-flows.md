@@ -43,7 +43,7 @@ Runs or works for an agency in the US, Europe or Gulf that packages hunts for cl
 | | |
 |---|---|
 | Goals | Source a reliable Pakistan outfitter, get specs she can paste into her own catalogue, agree net/commission terms, and resell. |
-| Must answer before enquiring | Full spec per hunt (at-a-glance, itinerary, inclusions/exclusions); permit allocation per season; net rates and commission (TBC); deposit and payment terms (TBC); cancellation policy (TBC); who handles visa, firearm and trophy paperwork (firearm documentation and government liaison are included; trophy export is excluded); white-label PDF or imagery rights (TBC). |
+| Must answer before enquiring | Full spec per hunt (at-a-glance, itinerary, inclusions/exclusions); permit allocation per season; net rates and commission (TBC); deposit and payment terms (40% advance, balance before the hunt); cancellation policy (TBC); who handles visa, firearm and trophy paperwork (firearm documentation and government liaison are included; trophy export is excluded); white-label PDF or imagery rights (TBC). |
 | Anxieties | Reputational risk if the outfitter under-delivers; permit availability after she has sold the hunt; unclear responsibility for trophy export. |
 | Devices and channels | Desktop, email-led, wants downloadable files. WhatsApp for quick checks once the relationship exists. |
 | Trust signals | Company legal name and licence, office address, a dedicated agents page, clear terms, references from other agents (TBC), speed and precision of reply. |
@@ -175,7 +175,7 @@ Five items + language + one primary action:
 | Hunts | Five hunt links |
 | Planning | Guide links |
 | Company links | About · Conservation · Agents · Contact · Privacy |
-| Contact | +92 311 166 7829 · +92 300 989 3205 · huntventuresafaris@gmail.com · WhatsApp (number TBC: which of the two is on WhatsApp) |
+| Contact | +92 311 166 7829 · +92 300 989 3205 · huntventuresafaris@gmail.com · WhatsApp +92 311 166 7829 |
 | Utility | EN / ES · Next-season list signup (SeasonAlertForm, new) |
 
 ### 3.5 Mobile navigation (Apple HIG principles)
@@ -314,7 +314,7 @@ Recommended: a hosted form endpoint (**Formspree or Basin**) because the site ha
 2. ◇ **Response OK?**
    - Yes → redirect to `/thank-you/?hunt=…` and send:
      - Internal email to huntventuresafaris@gmail.com. Subject: `[Enquiry] Astore Markhor · 2027–28 · 2 hunters + 1 companion · Spain · src=cinegetica`.
-     - Auto-reply to the hunter in the chosen language: thanks, summary of what they sent, reply-time promise (**TBC**), WhatsApp link, link to the hunt sheet PDF.
+     - Auto-reply to the hunter in the chosen language: thanks, summary of what they sent, reply-time promise ("we usually reply within 10–15 minutes"), WhatsApp link, link to the hunt sheet PDF.
    - No (network error, 4xx/5xx, timeout after ~15 s) → failure state (below).
 3. **Confirmation screen** content:
    - Heading: "Thank you, [first name]. Your enquiry is with us."
@@ -322,7 +322,7 @@ Recommended: a hosted form endpoint (**Formspree or Basin**) because the site ha
    - **What happens next** timeline (new: NextStepsTimeline):
      1. We confirm receipt (automatic email, now).
      2. A member of the team replies with availability and 2027–28 pricing (within **TBC** working days; client to set SLA; note Pakistan time zone, PKT UTC+5).
-     3. We agree dates, party and any extras; you receive a written offer (deposit terms **TBC**).
+     3. We agree dates, party and any extras; you receive a written offer. A 40% advance confirms the hunt; the balance is due before the hunt starts.
      4. We start permit, visa and firearm paperwork.
    - Secondary: Download hunt sheet PDF, Read the planning guides, "Message us on WhatsApp".
    - No promotional content; no further form.
@@ -359,7 +359,7 @@ Persona: P2, P1 on phone. Entry: StickyActionBar "WhatsApp" on a hunt page, Cont
 
 1. Tap **WhatsApp** (secondary Button, 44 px min, WhatsApp icon + text label).
 2. ◇ **Show a quick pre-sheet?** Recommended yes: a bottom sheet (new: WhatsAppSheet) with 3 optional quick fields: season, hunters, companions; plus a privacy note. "Open WhatsApp" Button and "Skip". (Skip sends the hunt-only prefill.)
-3. Open `https://wa.me/<number>?text=<encoded>` (number **TBC**: which of +92 311 166 7829 / +92 300 989 3205 is on WhatsApp Business). Prefill per species and language, for example:
+3. Open `https://wa.me/<number>?text=<encoded>` (WhatsApp number: +92 311 166 7829, written `923111667829` in the link). Prefill per species and language, for example:
    - EN: `Hello Hunt Venture Safaris, I'm interested in the Astore Markhor hunt (season 2027–28). Hunters: 1. Companions: 0. Country: . Preferred month: . Ref: web/astore-markhor`
    - ES: `Hola Hunt Venture Safaris, me interesa la caza de Markhor de Astore (temporada 2027–28). Cazadores: 1. Acompañantes: 0. País: . Mes preferido: . Ref: web-es/astore-markhor`
 4. ◇ **WhatsApp installed?**
@@ -626,7 +626,7 @@ Punjab Urial page: hero, AtAGlance with known fields (area Kala Bagh, Jhelum, Pa
 **Regular**
 ```
 [NavBar (Enquire hidden: current page)]
-[H1 "Plan your hunt" | intro: "Tell us what you'd like to hunt. We reply with availability and 2027-28 pricing." + reply time TBC]
+[H1 "Plan your hunt" | intro: "Tell us what you'd like to hunt. We reply with availability and 2027-28 pricing." + "We usually reply within 10–15 minutes."]
 [Left 2/3: EnquiryForm (3 groups, section 4c)]
 [Right 1/3: Summary card of selections (live) | "Prefer to talk?" ContactCard: WhatsApp, Call, Email | TrustBar vertical]
 [Footer]
@@ -674,9 +674,9 @@ Punjab Urial page: hero, AtAGlance with known fields (area Kala Bagh, Jhelum, Pa
 | a.6 FAQs | 6–8 Q&A per hunt | Draft from brochure; client to check |
 | b.2 Filters | Month ranges, region, effort level per hunt | Derived from brochure; effort labels TBC |
 | c Form | Field labels EN/ES, error messages, consent text, privacy policy | New copy; privacy policy TBC |
-| c Auto-reply | EN/ES templates, reply SLA, signature | TBC |
-| c Thank-you | Next-steps timeline, deposit wording | TBC |
-| d WhatsApp | Business number, prefill templates per hunt EN/ES, privacy note | Number TBC |
+| c Auto-reply | EN/ES templates, reply time (10–15 minutes), signature | Templates to write |
+| c Thank-you | Next-steps timeline, deposit wording (40% advance, balance before the hunt) | Ready to write |
+| d WhatsApp | +92 311 166 7829, prefill templates per hunt EN/ES, privacy note | Templates to write |
 | e Agents | Trade terms, net/commission, packet contents | TBC |
 | f Cinegética | Welcome copy EN/ES, stand photo, fair offer and validity, QR codes | TBC |
 | g Trust | Licence scan, team bios, testimonials with consent, conservation facts | TBC |
@@ -688,10 +688,10 @@ Punjab Urial page: hero, AtAGlance with known fields (area Kala Bagh, Jhelum, Pa
 Priority 1 (blocks launch or conversion):
 
 1. **Price policy**: confirm "on request" everywhere, and whether any "from" figure may ever be shown.
-2. **Reply SLA**: promised reply time (for example "within 2 working days") and working hours in PKT.
-3. **WhatsApp number**: which of the two numbers is on WhatsApp (Business), and who answers in Spanish.
+2. **Reply time**: confirmed: within 10–15 minutes. Still open: the working hours (PKT) this applies to, and what visitors see outside them.
+3. **WhatsApp number**: confirmed: +92 311 166 7829. Still open: who answers in Spanish.
 4. **Availability per hunt for 2027–28**: permits held / available / waitlist, refreshed when the auction result is known; when the auction happens each year.
-5. **Deposit and payment terms**: amount, timing, currency, method.
+5. **Deposit and payment terms**: confirmed: 40% in advance, balance before the hunt starts. Still open: currency and payment method.
 6. **Cancellation and refund policy**, including permit-fee rises, weather and force majeure.
 7. **Privacy policy** for enquiry data (form service, email, WhatsApp).
 8. **Photos per hunt area** (hero + 6–12 gallery), with dates and permission; no blood imagery for heroes.
@@ -714,7 +714,7 @@ Priority 3:
 19. Cinegética dates, stand number, any fair offer.
 20. Punjab Urial full hunt sheet.
 21. Spanish translations reviewed by a native speaker.
-22. Vector (SVG) logo (flagged by brand workstream).
+22. Vector (SVG) logo: done (`docs/brand/hvs-logo.svg` and variants).
 
 ---
 

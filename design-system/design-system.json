@@ -1,1 +1,78 @@
-{"v": 3, "layout": "files", "createdOnFiles": {"v": 1, "at": "2026-11-07T18:44:23Z"}, "title": "Hunt Venture Safaris", "namespace": "HVS", "libraries": [], "sections": {}, "groups": ["Logos"], "assetGroups": {"Logos": {"name": "Logos", "tile": "l", "order": ["hvs-logo.png", "hvs-mark.png"], "files": {"hvs-logo.png": {"name": "hvs-logo.png", "blob": "c9f0b8bddc034200224f6e417de47335", "size": 26103, "type": "image/png"}, "hvs-mark.png": {"name": "hvs-mark.png", "blob": "00090468e33ac04df054775565100c0c", "size": 15183, "type": "image/png"}}}}, "blobs": {}, "docs": {"readme": "project/README.md", "sections": []}, "lastChange": {"by": "Sheryar", "at": "2026-11-07T18:46:12Z", "via": "Claude", "note": "Initial design system from logo and 2027–28 brochures"}}
+{
+  "v": 3,
+  "assetGroups": {
+    "Logos": {
+      "files": {
+        "hvs-logo.png": {
+          "blob": "c9f0b8bddc034200224f6e417de47335",
+          "name": "hvs-logo.png",
+          "size": 26103,
+          "type": "image/png"
+        },
+        "hvs-mark.png": {
+          "blob": "00090468e33ac04df054775565100c0c",
+          "name": "hvs-mark.png",
+          "size": 15183,
+          "type": "image/png"
+        },
+        "hvs-logo.svg": {
+          "blob": "c8d02fd8e92a07a5ce38fb9d60933d37",
+          "name": "hvs-logo.svg",
+          "size": 66707,
+          "type": "image/svg+xml"
+        },
+        "hvs-logo-reversed.svg": {
+          "blob": "71ffad249c023bea3aa8609b6399c92a",
+          "name": "hvs-logo-reversed.svg",
+          "size": 66707,
+          "type": "image/svg+xml"
+        },
+        "hvs-mark.svg": {
+          "blob": "6ca045cc10ef1a22e3f8c3972609d4f5",
+          "name": "hvs-mark.svg",
+          "size": 24927,
+          "type": "image/svg+xml"
+        },
+        "hvs-mark-reversed.svg": {
+          "blob": "98bd889daec73a48ff95771f2e29a537",
+          "name": "hvs-mark-reversed.svg",
+          "size": 24927,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "hvs-logo.svg",
+        "hvs-logo-reversed.svg",
+        "hvs-mark.svg",
+        "hvs-mark-reversed.svg",
+        "hvs-logo.png",
+        "hvs-mark.png"
+      ],
+      "tile": "l"
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-11-07T18:44:23Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [
+    "Logos"
+  ],
+  "lastChange": {
+    "at": "2026-11-07T18:54:13Z",
+    "by": "Sheryar",
+    "note": "Added vector (SVG) logo masters and reversed versions",
+    "via": "Claude"
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "HVS",
+  "sections": {},
+  "title": "Hunt Venture Safaris"
+}
